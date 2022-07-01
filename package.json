@@ -1,0 +1,30 @@
+{
+  "name": "space",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Space/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariaIkon/Space.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DariaIkon/Space/issues"
+  },
+  "homepage": "https://github.com/DariaIkon/Space#readme",
+  "devDependencies": {
+    "sass": "^1.53.0"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "cssnano": "^5.1.12",
+    "postcss": "^8.4.14",
+    "posthtml-include": "^1.7.4"
+  }
+}
