@@ -1,0 +1,55 @@
+.hero {
+       
+        @media screen and (min-width: 320px) {
+            background-image: 
+            url(./../images/hero-picture.png),
+            linear-gradient(100.68deg, #5991FF 13.6%, #0050EF 94.69%);
+                background-size: contain;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            padding: 20px 0 0 16px;
+        }
+         @media screen and (min-width: 390px) {
+            background-position: right;
+        }
+    .hero__title {
+        @media screen and (min-width: 320px) {
+            font-size: 20px;
+            line-height: 1.2;
+            color: $white-color;
+            margin-bottom: 16px;
+        }
+    }
+    .hero__text {
+        @media screen and (min-width: 320px) {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.571;
+            color: $white-color;
+            max-width: 273px;
+            margin-bottom: 24px;
+        }
+        @media screen and (min-width: 390px) {
+            font-size: 14px;
+            max-width: 317px;
+        }
+    }
+    .hero__btn {
+       @media screen and (min-width: 320px){
+            background-color: $white-color;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 10px;
+            line-height: 1.214;
+            color: $accent-color;
+            display: inline-block;
+            margin-bottom: 138px;
+
+       } 
+       @media screen and (min-width: 320px){
+            padding: 14px 24px;
+            font-size: 14px;
+            line-height: 1.214;
+       }
+    }
+}

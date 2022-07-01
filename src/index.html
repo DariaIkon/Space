@@ -28,135 +28,144 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Space</title>
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <svg class="header__logo-icon" width="24px" height="24px">
-          <use href="./images/sprite.svg#logo-header"></use>
-        </svg>
+    <header class="header">
+      <div class="header__container container">
+        <div class="logo">
+          <svg class="header__logo-icon" width="24px" height="24px">
+            <use href="./images/sprite.svg#logo-header"></use>
+          </svg>
 
-        <svg class="header__logo-text" width="62px" height="17px">
-          <use href="./images/sprite.svg#logo-header-text"></use>
-        </svg>
+          <svg class="header__logo-text" width="62px" height="17px">
+            <use href="./images/sprite.svg#logo-header-text"></use>
+          </svg>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list list-no-style">
+            <li class="menu__item">
+              <a href="tel:88000000000" class="menu__link-svg">
+                <svg class="menu__icon" width="22px" height="22px">
+                  <use href="./images/sprite.svg#phone"></use>
+                </svg>
+              </a>
+              <a href="tel:88000000000" class="menu__link"> 8 800 000 00 00 </a>
+            </li>
+            <li class="menu__item">
+              <a href="mailto:sales@logo.ru" class="menu__link-svg">
+                <svg class="menu__icon" width="22px" height="22px">
+                  <use href="./images/sprite.svg#mail"></use>
+                </svg>
+              </a>
+              <a href="mailto:sales@logo.ru" class="menu__link">
+                sales@logo.ru
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="tel:88000000000" class="menu__link-svg">
-              <svg class="menu__icon" width="22px" height="22px">
-                <use href="./images/sprite.svg#phone"></use>
-              </svg>
-            </a>
-            <a href="tel:88000000000" class="menu__link"> 8 800 000 00 00 </a>
-          </li>
-          <li class="menu__item">
-            <a href="mailto:sales@logo.ru" class="menu__link-svg">
-              <svg class="menu__icon" width="22px" height="22px">
-                <use href="./images/sprite.svg#mail"></use>
-              </svg>
-            </a>
-            <a href="mailto:sales@logo.ru" class="menu__link">
-              sales@logo.ru
-            </a>
-          </li>
-        </ul>
-      </nav>
     </header>
-    <main>
+    <main class="main">
       <section class="hero">
         <h1 class="hero__title">
-          Как бизнесу сохранять IT-кадры на фоне кризиса
+          Как бизнесу сохранять
+          <br />
+          IT-кадры на фоне кризиса
         </h1>
         <p class="hero__text">
           Инструменты, которые могут использовать компании для удержания
           сотрудников
         </p>
-        <a href="#" target="_blank" type="button">Подробнее</a>
+        <a href="#" target="_blank" type="button" class="hero__btn"
+          >Подробнее</a
+        >
       </section>
       <section class="gallery">
-        <div class="gallery__filter">
-          <select name="author" id="author">
-            Выбор автора
-          </select>
+        <div class="container">
+          <div class="gallery__filter">
+            <select name="author" id="author">
+              Выбор автора
+            </select>
+          </div>
+          <ul class="gallery__list list-no-style">
+            <li class="gallery__item">
+              <p class="gallery__data">12 июня 2022</p>
+              <h3 class="gallery__title">Заголовок статьи</h3>
+              <p class="gallery__text">
+                Краткое описание статьи или ее начало. Может занимать больше
+                трех строк в высоту. В таком случае предложение заканчивается
+                многоточием...
+              </p>
+              <a href="#" class="gallery__button">Иван Иванов</a>
+            </li>
+            <li class="gallery__item">
+              <p class="gallery__data">12 июня 2022</p>
+              <h3 class="gallery__title">Заголовок статьи</h3>
+              <p class="gallery__text">
+                Краткое описание статьи или ее начало. Может занимать больше
+                трех строк в высоту. В таком случае предложение заканчивается
+                многоточием...
+              </p>
+              <a href="#" class="gallery__button">Иван Иванов</a>
+            </li>
+            <li class="gallery__item">
+              <p class="gallery__data">12 июня 2022</p>
+              <h3 class="gallery__title">Заголовок статьи</h3>
+              <p class="gallery__text">
+                Краткое описание статьи или ее начало. Может занимать больше
+                трех строк в высоту. В таком случае предложение заканчивается
+                многоточием...
+              </p>
+              <a href="#" class="gallery__button">Иван Иванов</a>
+            </li>
+            <li class="gallery__item">
+              <p class="gallery__data">12 июня 2022</p>
+              <h3 class="gallery__title">Заголовок статьи</h3>
+              <p class="gallery__text">
+                Краткое описание статьи или ее начало. Может занимать больше
+                трех строк в высоту. В таком случае предложение заканчивается
+                многоточием...
+              </p>
+              <a href="#" class="gallery__button">Иван Иванов</a>
+            </li>
+            <li class="gallery__item">
+              <p class="gallery__data">12 июня 2022</p>
+              <h3 class="gallery__title">Заголовок статьи</h3>
+              <p class="gallery__text">
+                Краткое описание статьи или ее начало. Может занимать больше
+                трех строк в высоту. В таком случае предложение заканчивается
+                многоточием...
+              </p>
+              <a href="#" class="gallery__button">Иван Иванов</a>
+            </li>
+            <li class="gallery__item">
+              <p class="gallery__data">12 июня 2022</p>
+              <h3 class="gallery__title">Заголовок статьи</h3>
+              <p class="gallery__text">
+                Краткое описание статьи или ее начало. Может занимать больше
+                трех строк в высоту. В таком случае предложение заканчивается
+                многоточием...
+              </p>
+              <a href="#" class="gallery__button">Иван Иванов</a>
+            </li>
+          </ul>
         </div>
-        <ul class="gallery__list">
-          <li class="gallery__item">
-            <p class="gallery__data">12 июня 2022</p>
-            <h3 class="gallery__title">Заголовок статьи</h3>
-            <p class="gallery__text">
-              Краткое описание статьи или ее начало. Может занимать больше трех
-              строк в высоту. В таком случае предложение заканчивается
-              многоточием...
-            </p>
-            <a href="#" class="gallery__button">Иван Иванов</a>
-          </li>
-          <li class="gallery__item">
-            <p class="gallery__data">12 июня 2022</p>
-            <h3 class="gallery__title">Заголовок статьи</h3>
-            <p class="gallery__text">
-              Краткое описание статьи или ее начало. Может занимать больше трех
-              строк в высоту. В таком случае предложение заканчивается
-              многоточием...
-            </p>
-            <a href="#" class="gallery__button">Иван Иванов</a>
-          </li>
-          <li class="gallery__item">
-            <p class="gallery__data">12 июня 2022</p>
-            <h3 class="gallery__title">Заголовок статьи</h3>
-            <p class="gallery__text">
-              Краткое описание статьи или ее начало. Может занимать больше трех
-              строк в высоту. В таком случае предложение заканчивается
-              многоточием...
-            </p>
-            <a href="#" class="gallery__button">Иван Иванов</a>
-          </li>
-          <li class="gallery__item">
-            <p class="gallery__data">12 июня 2022</p>
-            <h3 class="gallery__title">Заголовок статьи</h3>
-            <p class="gallery__text">
-              Краткое описание статьи или ее начало. Может занимать больше трех
-              строк в высоту. В таком случае предложение заканчивается
-              многоточием...
-            </p>
-            <a href="#" class="gallery__button">Иван Иванов</a>
-          </li>
-          <li class="gallery__item">
-            <p class="gallery__data">12 июня 2022</p>
-            <h3 class="gallery__title">Заголовок статьи</h3>
-            <p class="gallery__text">
-              Краткое описание статьи или ее начало. Может занимать больше трех
-              строк в высоту. В таком случае предложение заканчивается
-              многоточием...
-            </p>
-            <a href="#" class="gallery__button">Иван Иванов</a>
-          </li>
-          <li class="gallery__item">
-            <p class="gallery__data">12 июня 2022</p>
-            <h3 class="gallery__title">Заголовок статьи</h3>
-            <p class="gallery__text">
-              Краткое описание статьи или ее начало. Может занимать больше трех
-              строк в высоту. В таком случае предложение заканчивается
-              многоточием...
-            </p>
-            <a href="#" class="gallery__button">Иван Иванов</a>
-          </li>
-        </ul>
+        `
       </section>
     </main>
-    <footer>
-      <div class="footer__logo">
-        <svg class="footer__logo-icon">
+    <footer class="footer">
+      <div class="logo footer__logo">
+        <svg class="footer__logo-icon" width="32px" height="32px">
           <use href="./images/sprite.svg#logo-footer"></use>
         </svg>
 
-        <svg class="footer__logo-text">
+        <svg class="footer__logo-text" width="83px" height="31px">
           <use href="./images/sprite.svg#logo-footer-text"></use>
         </svg>
       </div>
-      <ul class="footer__list">
+      <ul class="footer__list list-no-style">
         <li class="footer__item">
           <a href="" class="footer__link"> Готовые решения </a>
         </li>
@@ -170,7 +179,7 @@
           <a href="" class="footer__link"> Контакты </a>
         </li>
       </ul>
-      <ul class="footer-social__list">
+      <ul class="footer-social__list list-no-style">
         <li class="footer-social__item">
           <a href="#" class="footer-social__link">
             <svg class="footer-social__icon" width="20px" height="20px">
@@ -200,7 +209,7 @@
           </a>
         </li>
       </ul>
-      <small>&copy; ООО «Лого», 2008—2022</small>
+      <small class="rights">&copy; ООО «Лого», 2008—2022</small>
     </footer>
     <script src="./js/index.js"></script>
   </body>
