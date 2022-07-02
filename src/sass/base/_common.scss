@@ -25,4 +25,7 @@ h1, h3, p {
     padding: 0 16px;
     margin: 0 auto;
     }
+    @media screen and (min-width: $desktop) {
+        padding: 0 138px;
+    }
   }
