@@ -78,16 +78,43 @@
           Инструменты, которые могут использовать компании для удержания
           сотрудников
         </p>
-        <a href="#" target="_blank" type="button" class="hero__btn"
-          >Подробнее</a
-        >
+        <a href="#gallery" type="button" class="hero__btn">Подробнее</a>
       </section>
-      <section class="gallery">
+      <section id="gallery" class="gallery">
         <div class="container">
           <div class="gallery__filter">
-            <select name="author" id="author">
-              Выбор автора
-            </select>
+            <div class="select__wrapper">
+              <svg class="user__svg" width="20px" height="20px">
+                <use href="./images/sprite.svg#user"></use>
+              </svg>
+              <select class="select" name="select-author" id="author">
+                <option value="1">Выбор автора</option>
+                <option value="2">Иван Иванов</option>
+                <option value="3">Иван Иванов</option>
+                <option value="4">Иван Иванов</option>
+                <option value="5">Иван Иванов</option>
+              </select>
+              <svg class="arrow__svg" width="20px" height="20px">
+                <use href="./images/sprite.svg#chevron-down"></use>
+              </svg>
+            </div>
+            <div class="date__wrapper">
+              <label for="date-from" class="date__wrapper-input">От</label>
+              <input
+                class="date__wrapper-input"
+                type="date"
+                name="date-from"
+                id="date-from"
+              />
+              <span class="date__wrapper-trait">-</span>
+              <label for="date-to" class="date__wrapper-input">До</label>
+              <input
+                class="date__wrapper-input"
+                type="date"
+                name="date-to"
+                id="date-from"
+              />
+            </div>
           </div>
           <ul class="gallery__list list-no-style">
             <li class="gallery__item">
