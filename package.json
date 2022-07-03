@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/DariaIkon/Space/issues"
   },
-  "homepage": "https://DariaIkon.github.io/Space/",
+  "homepage": "https://DariaIkon.github.io/Space/index.html",
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.6.2",
     "@parcel/transformer-webmanifest": "^2.6.2",
